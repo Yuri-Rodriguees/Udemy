@@ -11,7 +11,7 @@
 - 🔄 Atualização automática quando o site carrega
 
 ## 🚀 Instalação
-1. `git clone https://github.com/Yuri-Rodriguees/Udemy.git`
+1. `git clone https://github.com/Yuri-Rodriguees/Udemy-Dark-Theme.git`
 2. Abra o Chrome em `chrome://extensions/`
 3. Ative o **Modo Desenvolvedor**
 4. Clique em **Carregar sem compactação**
