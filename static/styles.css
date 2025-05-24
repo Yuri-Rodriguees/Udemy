@@ -1,0 +1,114 @@
+:root {
+  --bg-color: #1e1e1e;
+  --text-color: #e0e0e0;
+  --input-bg: #2b2b2b;
+  --border-color: #444;
+  --link-color: #bb86fc;
+  --scrollbar-thumb: #555;
+  --placeholder-color: #aaaaaa;
+  --disabled-color: #777777;
+}
+
+body, html,
+section, div, article, main, .container, .ud-container,
+.link-bar-module--link-bar--LnCxo .link-bar-module--categories--iqRvl,
+.desktop-header-module--flex-middle--k0Teb {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li, a {
+  color: var(--text-color) !important;
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+.desktop-header-module--logo--AwnFF,
+.header--logo-image--2yYkw,
+.desktop-header-module--logo--AwnFF img,
+.header--logo-image--2yYkw img {
+  filter: none !important;
+  background: none !important;
+}
+
+.desktop-header-module--logo--AwnFF img,
+.header--logo-image--2yYkw img {
+  width: auto !important;
+  height: 34px !important;
+  object-fit: contain !important;
+}
+
+.ud-search-form-autocomplete-input-group {
+  background-color: var(--bg-color) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 999px !important;
+  padding-left: 0.8rem;
+}
+
+.ud-search-form-autocomplete-input {
+  background-color: var(--input-bg) !important;
+  color: var(--text-color) !important;
+  border: none !important;
+  padding: 0.8rem 1rem !important;
+}
+
+.ud-search-form-autocomplete-input::placeholder {
+  color: var(--placeholder-color) !important;
+}
+
+.ud-btn.ud-btn-icon {
+  background-color: transparent !important;
+  color: var(--text-color) !important;
+  border: none !important;
+}
+
+.ud-btn.ud-btn-icon svg,
+.ud-btn.ud-btn-icon-medium svg,
+.ud-btn.ud-btn-ghost.ud-btn-icon svg,
+.ud-btn.ud-btn-ghost.ud-btn-icon-medium svg,
+.ud-btn svg use {
+  fill: var(--text-color) !important;
+  stroke: var(--text-color) !important;
+  color: var(--text-color) !important;
+}
+
+.ud-btn.ud-btn-icon > span,
+.ud-btn.ud-btn-icon-medium > span {
+  color: var(--text-color) !important;
+}
+
+.ud-btn.ud-btn-disabled {
+  color: var(--disabled-color) !important;
+  border: none !important;
+  opacity: 0.6;
+}
+
+.ud-btn.ud-btn-disabled svg {
+  fill: var(--disabled-color) !important;
+  stroke: var(--disabled-color) !important;
+}
+
+button {
+  background-color: var(--border-color) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+input, textarea, select {
+  background-color: var(--input-bg) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}

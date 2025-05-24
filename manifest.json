@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Dark Theme",
+  "version": "1.0",
+  "description": "Tema escuro para Udemy",
+  "icons": {
+    "48": "static/img/icon.png"
+  },
+  "web_accessible_resources": [{
+    "resources": ["static/img/*.svg"],
+    "matches": ["*://www.udemy.com/*"]
+  }],
+  "content_scripts": [{
+    "matches": ["*://www.udemy.com/*"],
+    "css": ["static/styles.css"],
+    "js": ["content.js"]
+  }]
+}
